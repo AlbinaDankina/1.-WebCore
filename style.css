@@ -93,6 +93,7 @@
 
     .slide-menu {
         display: flex;
+        flex-direction: column;
         overflow-x: auto;
         margin-bottom: 24px;
        }
