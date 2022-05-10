@@ -1,33 +1,33 @@
 
     @font-face {
         font-family: 'TT Lakes';
-        src: url("../fonts/TTLakes-Bold.woff");
+        src: url("fonts/TTLakes-Bold.woff");
         src: local("fonts/TTLakes-Bold.woff"), local('TTLakes-Bold'),
-        url("../fonts/TTLakes-Bold.woff") format('embedded-opentype'),
-        url("../fonts/TTLakes-Bold.woff") format('woff'),
-        url("../fonts/TTLakes-Bold.woff") format('truetype');
+        url("fonts/TTLakes-Bold.woff") format('embedded-opentype'),
+        url("fonts/TTLakes-Bold.woff") format('woff'),
+        url("fonts/TTLakes-Bold.woff") format('truetype');
         font-weight: bold;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes';
-        src: url('../fonts/TTLakes-Medium.eot');
+        src: url('fonts/TTLakes-Medium.eot');
         src: local('TT Lakes Medium'), local('TTLakes-Medium'),
-        url('../fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/TTLakes-Medium.woff') format('woff'),
-        url('../fonts/TTLakes-Medium.ttf') format('truetype');
+        url('fonts/TTLakes-Medium.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TTLakes-Medium.woff') format('woff'),
+        url('fonts/TTLakes-Medium.ttf') format('truetype');
         font-weight: 500;
         font-style: normal;
     }
 
     @font-face {
         font-family: 'TT Lakes';
-        src: url('../fonts/TTLakes-Regular.eot');
+        src: url('fonts/TTLakes-Regular.eot');
         src: local('fonts/TT Lakes Regular'), local('TTLakes-Regular'),
-        url('../fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/TTLakes-Regular.woff') format('woff'),
-        url('../fonts/TTLakes-Regular.ttf') format('truetype');
+        url('fonts/TTLakes-Regular.eot?#iefix') format('embedded-opentype'),
+        url('fonts/TTLakes-Regular.woff') format('woff'),
+        url('fonts/TTLakes-Regular.ttf') format('truetype');
         font-weight: normal;
         font-style: normal;
     }
@@ -93,9 +93,9 @@
 
     .slide-menu {
         display: flex;
-        flex-direction: column;
         overflow-x: auto;
         margin-bottom: 24px;
+        flex-direction: column;
        }
 
     .slide-menu__item {
@@ -131,7 +131,7 @@
         color: #7E7E82;
         vertical-align: middle;
     }
-    
+
     .block-1__text {
         font-family: "TT Lakes";
         overflow: hidden;
@@ -231,6 +231,7 @@
 
     .slide-menu__part {
         margin-left: 24px;
+        justify-content: space-around;
     }
 
     .block-1__text--hidden {
